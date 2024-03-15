@@ -1,0 +1,7 @@
+Part_number,Supplier,Mode,Transit_time,Source,Part_Rating,Analyst
+pre1-base1-suff1,CWVXB,P,3,Import,A,Analyst 1
+pre1-base1-suff1,CWVXB,R,12,Import,A,Analyst 1
+pre2-base2-suff2,FJJQA,P,3,Import,A,Analyst 1
+pre2-base2-suff2,FJJQA,R,12,Import,A,Analyst 1
+pre3-base3-suff3,1055E,P,3,Import,A,Analyst 2
+pre3-base3-suff3,1055E,R,12,Import,A,Analyst 2
