@@ -14,6 +14,7 @@ incominginventoryi.csv - Incoming inventory of parts input file available in Ill
 onhandi.csv – On-hand inventory of parts input file available in Illustrative_Example folder or the LargeScale_Instance folder.
 penaltyi.csv - Penalty for premium and regular mode input file available in Illustrative_Example folder or the LargeScale_Instance folder.
 transittimei.csv - Transit time of parts input file available in Illustrative_Example folder or the LargeScale_Instance folder.
+
 Step 2: Update your input files with the data as outlined below.
 
 demandi.csv - This file should contain the revised demand at vehicle model level (Vehicle_model) for all the periods (time_period). Any period with no volume should be marked as zero.
@@ -22,10 +23,12 @@ incominginventoryi.csv - The file should contain the quantity of parts incoming 
 onhandi.csv - This file should contain the on-hand inventory (On_hand), supplier capacity (Supplier_capacity) and supplier name or code (Supplier) of the parts. Supplier field is used for reporting purpose and not used in the model. All parts in the bill of material should be listed and if some parts have no on hand it should be filled with zero quantity.
 penaltyi.csv - This file should contain the penalty (Penalty) for the regular mode (R) and premium mode (P) shipment.
 transittimei.csv - This file should contain the transit time (Transit_time) of parts for each mode of shipment (regular and premium mode). Source (Source, part rating (Part_Rating) and analyst (Analyst) fields are for reference and not used in the model. All parts in the bill of material should be listed with the transit time for each mode of shipment. If the regular and premium mode has the same transit time, input the same value for both the modes.
+
 Caution:
 
 Column names should not be modified.
 Addition of columns or deletion of existing columns should not be done.
+
 Step 3: Run the python code DemandRev.py. This will create two output files Results_ArrOrderQuan.csv and Results_Other.csv in your working directory.
 
 How to read the output:
